@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Analysis Visualization</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="home_page.html">Latitude</a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="lat_vs_temp.html">Latitude vs. Temperature</a></li>
+            <li><a href="lat_vs_humidity.html">Latitude vs. Humidity</a></li>
+            <li><a href="lat_vs_cloudiness.html">Latitude vs. Cloudiness</a></li>
+            <li><a href="lat_vs_windiness.html">Latitude vs. Wind Speed</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="home_page.html">Home</a></li>
+          </ul>
+        </li>
+        <li><a href="lat_comparisons.html">Latitude-Climate Comparisons</a></li>
+        <li><a href="world_climate_data.html">World Climate Data</a></li>
+        <li><a target="_blank" href="https://github.com/varsha-ramamurthy/Python_API_Homework">Python API Homework</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+
+    <h1>Comparisons</h1> <br>
+
+    <!-- First Row -->
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>Latitude vs. Temperature</h3>
+            <a target="_blank" href="assets/images/Max_Temp_vs_Latitude.png"><img src="assets/images/Max_Temp_vs_Latitude.png" alt="Latitude vs. Temperature" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>Latitude vs. Humidity</h3>
+            <a target="_blank" href="assets/images/Humidity_vs_Latitude.png"><img src="assets/images/Humidity_vs_Latitude.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>Latitude vs. Cloudiness</h3>
+            <a target="_blank" href="assets/images/Cloudiness_vs_Latitude.png"><img src="assets/images/Cloudiness_vs_Latitude.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 pad top"> <br>
+
+          <div class="pull-left">
+            <h3>Latitude vs. Wind Speed</h3>
+            <a target="_blank" href="assets/images/Wind_Speed_vs_Latitude.png"><img src="assets/images/Wind_Speed_vs_Latitude.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+          </div>
+
+        </div>
+
+    </div>
+
+    
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </html>
